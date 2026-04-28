@@ -15,4 +15,4 @@
 <h2>Update</h2>
 <p>this website is now built on sveltekit <br> That should make it very easy to maintain fancier pieces!</p>
 <p>I'm currently writing this in sveltekit with typescript and sass, deployed via <a href="https://github.com/Temoffy/temoffyTelosWeb">github</a> workflow. I think this will work great, but there's only one way to find out.</p>
-<p>Todo: double check that enhanced images make smaller versions correctly?</p>
+<p>Todo: double check that enhanced images make smaller versions correctly? See about basic telemetry about lightmode and darkmode so I know where to focus development. Make the background dynamic when dark/light mode swapped. Add dark/light mode toggle?</p>
