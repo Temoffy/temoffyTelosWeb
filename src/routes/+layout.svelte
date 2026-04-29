@@ -10,11 +10,16 @@
 	.root{
 		background: antiquewhite;
 		color: darkslategray;
+		border-color: firebrick;
+		border-width: .5em;
+		border-style: solid;
+
 		padding: 2%;
 		column-count: 2;
 		@media (prefers-color-scheme: dark){
 			background: slategrey;
 			color: black;
+			border-color:rgb(81, 22, 22);
 		}
 	}
 </style>

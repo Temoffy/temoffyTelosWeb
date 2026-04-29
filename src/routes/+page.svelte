@@ -1,10 +1,10 @@
+<svelte:head> <title>Title - TemoffyTelos</title> </svelte:head>
+
 <h1>Welcome Visitors!</h1>
 
-<p>Unfortunately, you've reached a site that doesn't exist yet. try again later maybe! Setting up a webpage as a porfolio/project display/alternate to social apps seemed handy, may migrate some of my stuff here if even for my own reference</p>
+<p>You've reached a very young site! Try again later maybe for updates! Setting up a webpage as a porfolio/project display/alternate to social apps seemed handy, may migrate some of my stuff here if even for my own reference</p>
 
 <p>I'm going to use this as a note page because I'm doing this away from my main workstation and want to remember some links and such, don't mind me! (this is how indie web is supposed to work anyhow right? link to lots of things? :P)</p>
-
-<!--<img src="/neocities.png" alt="Site hosted by Neocities">-->
 
 <ul>
     <li>Someone already made a great <a href="https://neocities.org">dithering tool</a>, and it works in Oklab!!! That makes my pet color handling project Chromaloom easier. If you want to see Chromaloom actually hit the web yell at me and i might actually get around to it</li>
@@ -15,4 +15,4 @@
 <h2>Update</h2>
 <p>this website is now built on sveltekit <br> That should make it very easy to maintain fancier pieces!</p>
 <p>I'm currently writing this in sveltekit with typescript and sass, deployed via <a href="https://github.com/Temoffy/temoffyTelosWeb">github</a> workflow. I think this will work great, but there's only one way to find out.</p>
-<p>Todo: double check that enhanced images make smaller versions correctly? See about basic telemetry about lightmode and darkmode so I know where to focus development. Make the background dynamic when dark/light mode swapped. Add dark/light mode toggle?</p>
+<p>Todo: See about basic telemetry about lightmode and darkmode so I know where to focus development. Add dark/light mode toggle? Comments/guestbook at some point.</p>
