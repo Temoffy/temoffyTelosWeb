@@ -3,10 +3,9 @@
 		"*.css": "tailwindcss"
 	},
 	"[svelte]": {
-     "editor.defaultFormatter": "svelte.svelte-vscode"
-   },
-   "editor.detectIndentation": false,
-   "editor.tabSize": 2,
-   "editor.insertSpaces": false,
-
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"editor.detectIndentation": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false
 }
