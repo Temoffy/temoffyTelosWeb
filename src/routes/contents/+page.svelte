@@ -6,7 +6,7 @@
 	.bookContent {
 		columns: 2;
 		column-gap: 2%;
-		padding: 2% 4% 6% 4%;
+		padding: 0%;
 		width: 100%;
 		aspect-ratio: 3/2;
 		position: relative;

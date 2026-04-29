@@ -26,7 +26,7 @@
 	<div class="page"></div>
 	<div class="page" style="padding:10% 5% 5% 5%;">
 		<h1>Collectanea</h1>
-		<p>Or sundry works, writings, and resources</p>
+		<p>or, Sundry Works, Writings, and Resources</p>
 		<p>by T. Telos</p>
 		<p>Α☧ω</p>
 	</div>
