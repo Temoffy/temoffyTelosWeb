@@ -15,7 +15,6 @@
 		border-style: solid;
 
 		padding: 2%;
-		column-count: 2;
 		@media (prefers-color-scheme: dark){
 			background: slategrey;
 			color: black;
