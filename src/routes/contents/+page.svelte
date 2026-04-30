@@ -66,9 +66,6 @@
 		break-before: column;
 		text-align: center;
 	}
-	p {
-		break-inside: avoid;
-	}
 	.noBreak {
 		break-inside: avoid;
 	}
