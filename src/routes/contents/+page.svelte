@@ -39,7 +39,7 @@
 	.margins {
 		width: 100%;
 		height: 100%;
-		padding: 5% 10%;
+		padding: 6% 9% 11% 9%;
 		position: relative;
 		box-sizing: border-box;
 	}
@@ -54,17 +54,22 @@
 		height: 100%;
 		width: 100%;
 		column-count: 2;
-		column-gap: 1em;
+		column-gap: 8%;
 		box-sizing: border-box;
 		white-space: nowrap;
 		* {
 			white-space: normal;
+		}
+		@media (max-width: 600px) {
+			column-count: 1;
 		}
 	}
 	h1,
 	h2 {
 		break-before: column;
 		text-align: center;
+		margin: 0.7em 0 0 0;
+		line-height: 1.5em;
 	}
 	.noBreak {
 		break-inside: avoid;
@@ -76,11 +81,14 @@
 <div class="margins">
 	<div class="book">
 		<div class="pages" bind:this={pages} style="transform: translateX({getOffset()}px)">
-			<p>
-				You've reached a very young site! Try again later maybe for updates! Setting up a
-				webpage as a porfolio/project display/alternate to social apps seemed handy, may
-				migrate some of my stuff here if even for my own reference
-			</p>
+			<div class="noBreak">
+				<h2>Contents</h2>
+				<p>
+					You've reached a very young site! Try again later maybe for updates! Setting up a
+					webpage as a porfolio/project display/alternate to social apps seemed handy, may
+					migrate some of my stuff here if even for my own reference
+				</p>
+			</div>
 
 			<p>
 				I'm going to use this as a note page because I'm doing this away from my main
@@ -111,7 +119,7 @@
 			<div class="noBreak">
 				<h2>Update</h2>
 				<p>
-					this website is now built on sveltekit <br /> That should make it very easy to maintain
+					This website is now built on sveltekit. That should make it very easy to maintain
 					fancier pieces!
 				</p>
 			</div>

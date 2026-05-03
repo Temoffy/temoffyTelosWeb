@@ -14,6 +14,8 @@
 		href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap"
 		rel="stylesheet"
 	/>
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
 </svelte:head>
 <Background />
 <div class="root">{@render children()}</div>
