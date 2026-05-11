@@ -34,5 +34,5 @@
 		<p>Α☧ω</p>
 	</div>
 	<Pageturn direction="backward" target="/" />
-	<Pageturn direction="forward" target="/contents" />
+	<Pageturn direction="forward" target="/early-rambles" />
 </div>
