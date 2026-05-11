@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { direction, target, hijack, onclick} = $props();
+	let { direction, target, hijack = false, onclick = () => {}} = $props();
 </script>
 
 <style lang="scss">
