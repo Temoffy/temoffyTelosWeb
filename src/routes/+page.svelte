@@ -13,7 +13,7 @@
 		box-sizing: border-box;
 		.page {
 			width: 49%;
-			padding:10% 5% 5% 5%;
+			padding: 10% 5% 5% 5%;
 			box-sizing: border-box;
 		}
 	}

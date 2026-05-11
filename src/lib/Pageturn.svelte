@@ -1,9 +1,9 @@
 <script lang="ts">
-	let { direction, target } = $props();
+	let { direction, target, hijack, onclick} = $props();
 </script>
 
 <style lang="scss">
-	a {
+	a, button {
 		display: block;
 		text-align: center;
 		position: absolute;
@@ -17,4 +17,8 @@
 	}
 </style>
 
-<a class={direction} href={target}>turn page</a>
+{#if hijack}
+	<button class={direction} onclick={onclick}>turn page</button>
+{:else}
+	<a class={direction} href={target}>turn page</a>
+{/if}

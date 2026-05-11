@@ -26,7 +26,8 @@
 		pageWidth = pages.offsetWidth;
 
 		const observer = new ResizeObserver(() => {
-			gap = parseFloat(getComputedStyle(pages)?.columnGap);
+			// ONLY WORKS IF GAP DEFINED AS PERCENT!!
+			gap = (parseFloat(getComputedStyle(pages)?.columnGap) * pages.offsetWidth) / 100;
 			pageWidth = pages.offsetWidth;
 		});
 		observer.observe(pages);
@@ -84,9 +85,9 @@
 			<div class="noBreak">
 				<h2>Contents</h2>
 				<p>
-					You've reached a very young site! Try again later maybe for updates! Setting up a
-					webpage as a porfolio/project display/alternate to social apps seemed handy, may
-					migrate some of my stuff here if even for my own reference
+					You've reached a very young site! Try again later maybe for updates! Setting up
+					a webpage as a porfolio/project display/alternate to social apps seemed handy,
+					may migrate some of my stuff here if even for my own reference
 				</p>
 			</div>
 
@@ -119,8 +120,8 @@
 			<div class="noBreak">
 				<h2>Update</h2>
 				<p>
-					This website is now built on sveltekit. That should make it very easy to maintain
-					fancier pieces!
+					This website is now built on sveltekit. That should make it very easy to
+					maintain fancier pieces!
 				</p>
 			</div>
 			<p>
@@ -142,6 +143,6 @@
 	{#if pageNum < getPageCount() - 1}
 		<button onclick={next} style="bottom: 0px; right: 0px; position: absolute;">→</button>
 	{:else}
-		<Pageturn direction="forward" target="/" />
+		<Pageturn direction="forward" target="/early-rambling" />
 	{/if}
 </div>
