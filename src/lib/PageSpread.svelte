@@ -17,10 +17,12 @@
 		chapterTitle = ''
 	} = $props();
 
-	let gapPercent = 10;
-	let topPad = 10;
-	let bottomPad = 20;
-	let outerPad = 11;
+	//defaults for all pages, do not diverge without VERY good reason.
+	const gapPercent = 10;
+	const topPad = 10;
+	const bottomPad = 20;
+	const outerPad = 11;
+
 	let centerPercent = (100 - gapPercent - outerPad * 2) / 4 + outerPad;
 </script>
 
