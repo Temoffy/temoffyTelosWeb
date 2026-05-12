@@ -6,12 +6,16 @@
 	let { children } = $props();
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+	.root{
+		container-type: size;
+	}
+</style>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous' />
 	<link
 		href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap"
 		rel="stylesheet"
