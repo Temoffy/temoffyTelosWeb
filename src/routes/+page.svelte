@@ -11,10 +11,22 @@
 		flex-direction: row;
 		justify-content: space-between;
 		box-sizing: border-box;
+		container-type: size;
+		@media (max-width: 600px) {
+			justify-content: space-around;
+		}
 		.page {
 			width: 49%;
-			padding: 10% 5% 5% 5%;
+			padding: 10cqh 5cqw 5cqh 5cqw;
 			box-sizing: border-box;
+			@media (max-width: 600px) {
+				width: 100%;
+			}
+		}
+		.mobileHide {
+			@media (max-width: 600px) {
+				display: none;
+			}
 		}
 	}
 	h1,
@@ -26,7 +38,7 @@
 <svelte:head><title>Title - TemoffyTelos</title></svelte:head>
 
 <div class="bookContent">
-	<div class="page"></div>
+	<div class="page mobileHide"></div>
 	<div class="page">
 		<h1>Collectanea</h1>
 		<p>or; Sundry Works, Writings, and Resources</p>
