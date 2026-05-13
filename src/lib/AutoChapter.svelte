@@ -44,6 +44,7 @@
 		height: 100%;
 		width: 100%;
 		column-count: 2;
+		column-fill: auto;
 		column-gap: var(--gap);
 		box-sizing: border-box;
 		white-space: nowrap;
