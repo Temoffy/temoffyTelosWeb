@@ -14,7 +14,8 @@
 		pageNumL = '',
 		pageNumR = '',
 		bookTitle = '',
-		chapterTitle = ''
+		chapterTitle = '',
+		showChapterTitle = true
 	} = $props();
 
 	//defaults for all pages, do not diverge without VERY good reason.
@@ -76,7 +77,7 @@
 		text-transform: lowercase;
 		font-family: 'IM Fell English SC', 'IM Fell English', serif;
 		letter-spacing: 2px;
-		margin: 0.0em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 </style>
 
@@ -85,8 +86,9 @@
 	style="--gap: {gapPercent}%; --pageCenter: {centerPercent}%; --topPad: {topPad}cqh; --bottomPad: {bottomPad}cqh; --outerPad: {outerPad}cqw;"
 >
 	<h5 class="left header">{bookTitle}</h5>
-	<h5 class="right header">{chapterTitle}</h5>
-
+	{#if showChapterTitle}
+		<h5 class="right header">{chapterTitle}</h5>
+	{/if}
 	<article>
 		{@render children()}
 	</article>

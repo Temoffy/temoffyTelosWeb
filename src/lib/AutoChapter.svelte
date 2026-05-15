@@ -3,9 +3,9 @@
 	import { onMount } from 'svelte';
 	import './AutoChapter.sass';
 
-	let {children, bookTitle, chapterTitle, prevURL, nextURL, chapterNum} = $props();
+	let { children, bookTitle, chapterTitle, prevURL, nextURL, chapterNum } = $props();
 
-	let pageNum = $state(0);
+	let spreadNum = $state(0);
 	let pages: HTMLElement;
 	let gap = $state(0);
 	let pageWidth = $state(0);
@@ -14,14 +14,14 @@
 		return Math.ceil((pages?.scrollWidth + gap) / (pageWidth + gap)) || 0;
 	}
 	function getOffset() {
-		return -(pageWidth + gap) * pageNum;
+		return -(pageWidth + gap) * spreadNum;
 	}
 
 	function next() {
-		if (pageNum < getPageCount() - 1) pageNum++;
+		if (spreadNum < getPageCount() - 1) spreadNum++;
 	}
 	function prev() {
-		if (pageNum > 0) pageNum--;
+		if (spreadNum > 0) spreadNum--;
 	}
 
 	onMount(() => {
@@ -48,7 +48,7 @@
 		column-gap: var(--gap);
 		box-sizing: border-box;
 		white-space: nowrap;
-		@media (max-width: 600px) {
+		@media (max-width: 650px) {
 			column-count: 1;
 		}
 	}
@@ -57,15 +57,15 @@
 <svelte:head><title>{chapterTitle} - TemoffyTelos</title></svelte:head>
 
 <PageSpread
-	bookTitle={bookTitle}
-	chapterTitle={chapterTitle}
-	pageNumL="{chapterNum}-{pageNum * 2 + 1}"
-	pageNumR="{chapterNum}-{pageNum * 2 + 2}"
-	prevURL={prevURL}
-	nextURL={nextURL}
-	prevClickHijack={pageNum != 0}
+	{bookTitle}
+	{chapterTitle}
+	pageNumL="{chapterNum}-{spreadNum * 2 + 1}"
+	pageNumR="{chapterNum}-{spreadNum * 2 + 2}"
+	{prevURL}
+	{nextURL}
+	prevClickHijack={spreadNum != 0}
 	prevOnclick={prev}
-	nextClickHijack={pageNum < getPageCount() - 1}
+	nextClickHijack={spreadNum < getPageCount() - 1}
 	nextOnclick={next}
 >
 	<div class="pages" bind:this={pages} style="transform: translateX({getOffset()}px)">
