@@ -52,6 +52,11 @@
 			column-count: 1;
 		}
 	}
+	.cutoff {
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+	}
 </style>
 
 <svelte:head><title>{chapterTitle} - TemoffyTelos</title></svelte:head>
@@ -68,7 +73,9 @@
 	nextClickHijack={spreadNum < getPageCount() - 1}
 	nextOnclick={next}
 >
-	<div class="pages" bind:this={pages} style="transform: translateX({getOffset()}px)">
-		{@render children()}
+	<div class="cutoff">
+		<div class="pages" bind:this={pages} style="transform: translateX({getOffset()}px)">
+			{@render children()}
+		</div>
 	</div>
 </PageSpread>

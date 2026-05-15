@@ -20,7 +20,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 100%;
+		height: 110%;
+	}
+	.space{
+		padding: .5em 0 0 0;
 	}
 	.epigraph {
 		text-indent: 0;
@@ -44,11 +47,11 @@
 		<div>
 			<span class="smallcaps">Collectanea or Sundry Works, Writings, and Resources.</span> Copyright © 2026, Temoffy Telos.
 		</div>
-		<div>
+		<div class='space'>
 			Some rights reserved. This work is licensed under CC BY-NC 4.0. To view a copy of this license, visit creativecommons.org/licenses/by-nc/4.0
 		</div>
 		<div></div>
-		<div class="centerAlign">
+		<div class="centerAlign space">
 			Printed in the United States of America.
 			<br />
 			First Edition, 2026.
