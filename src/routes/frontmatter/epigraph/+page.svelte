@@ -54,7 +54,7 @@
 			First Edition, 2026.
 		</div>
 		<div class="centerAlign">
-			🙚Α☧ω🙘 <br />
+			𐡷Α⳩ω𐡸 <br />
 			𐫱
 		</div>
 			

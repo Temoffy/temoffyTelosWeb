@@ -38,4 +38,5 @@ I'm currently writing this in sveltekit with typescript and sass, deployed via [
 As of May 2026, I'm now also using several other pieces including mdsvex and custom build systems. I'll need to write it up soon.
 
 Todo: See about basic telemetry about lightmode and darkmode so I know where to
-focus development. Add dark/light mode toggle? Comments/guestbook at some point. I found a [guide](https://writings.howsoonisnow.org/digitalgarden/Tutorials/Make-a-Poll-for-your-site-using-Google-Forms--and--Sheets) on using hidden google forms for such, and intend to try it.
+focus development. Add dark/light mode toggle? Comments/guestbook at some point. I found 
+a [guide](https://writings.howsoonisnow.org/digitalgarden/Tutorials/Make-a-Poll-for-your-site-using-Google-Forms--and--Sheets) on using hidden google forms for such, and intend to try it.
