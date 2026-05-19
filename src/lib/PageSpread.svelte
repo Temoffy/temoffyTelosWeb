@@ -71,8 +71,7 @@
 	.pageNum {
 		bottom: calc(var(--bottomPad) * 2 / 3);
 	}
-	h5,
-	h6 {
+	h5{
 		text-transform: lowercase;
 		font-family: 'IM Fell English SC', 'IM Fell English', serif;
 		letter-spacing: 2px;

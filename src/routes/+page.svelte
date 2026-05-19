@@ -48,7 +48,7 @@
 
 <svelte:head><title>Title - TemoffyTelos</title></svelte:head>
 
-<PageSpread showPrev={false} nextURL="/frontmatter/epigraph">
+<PageSpread showPrev={false} nextURL="/frontmatter/dedication">
 	<div class="bookContent">
 		<div class="page mobileHide"></div>
 		<div class="page">
