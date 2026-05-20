@@ -59,7 +59,6 @@
 			<div class="third"></div>
 			<div class="third">
 				<p>by T. Telos</p>
-				<p>Α ☧ ω</p>
 			</div>
 		</div>
 	</div>

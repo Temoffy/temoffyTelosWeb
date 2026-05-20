@@ -49,6 +49,6 @@
 	showChapterTitle={false}
 	chapterNum=""
 	prevURL="/frontmatter/dedication"
-	nextURL="/early-rambles"
+	nextURL="/frontmatter/contents"
 	pages={[empty, epigraph]}
 />

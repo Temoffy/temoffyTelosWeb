@@ -2,8 +2,8 @@
 layout: autochapter
 bookTitle: Collectanea
 chapterTitle: Early Rambles
-chapterNum: iii
-prevURL: /frontmatter/epigraph
+chapterNum: iv
+prevURL: /frontmatter/contents
 nextURL: /
 ---
 ## Early Rambles
