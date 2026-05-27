@@ -2,41 +2,56 @@
 layout: autochapter
 bookTitle: Collectanea
 chapterTitle: Early Rambles
-chapterNum: iv
-prevURL: /frontmatter/contents
+chapterNum: v
+prevURL: /foreword
 nextURL: /
 ---
+
 ## Early Rambles
 
-You've reached a very young site, please do not judge too harshly. Try again later maybe for updates as I'm able. Setting up a
-webpage as a porfolio, project display, and alternate to crossposting a half-dozen social apps to share things seemed handy, I plan to 
-migrate some of my stuff here if even for my own reference; though I hope it is of benefit to others as well.
+You've reached a very young site, please do not judge too harshly. Try again
+later maybe for updates as I'm able. Setting up a webpage as a porfolio, project
+display, and alternate to crossposting a half-dozen social apps to share things
+seemed handy, I plan to migrate some of my stuff here if even for my own
+reference; though I hope it is of benefit to others as well.
 
-In lieu of my project content or meanders on any specific subjects, please accept a few notes about what I am stumbling across thus far in the writing of this book.
+In lieu of my project content or meanders on any specific subjects, please
+accept a few notes about what I am stumbling across thus far in the writing of
+this book.
 
-Someone already made a great <a href="https://neocities.org">dithering tool</a>, and
-it works in Oklab! That makes my pet color handling project Chromaloom easier. If
-you want to see Chromaloom actually hit the web yell at me and i might actually get
-around to it, starting with making [Ottoson's picker](https://bottosson.github.io/misc/colorpicker/) more user friendly and implementing color palettes.
+Someone already made a great <a href="https://neocities.org">dithering tool</a>,
+and it works in Oklab! That makes my pet color handling project Chromaloom
+easier. If you want to see Chromaloom actually hit the web yell at me and i
+might actually get around to it, starting with making
+[Ottoson's picker](https://bottosson.github.io/misc/colorpicker/) more user
+friendly and implementing color palettes.
 
-I stumbled across <a href="https://midnightsolarium.neocities.org/links">this neocities site</a>
- while googling neocities vs nekocities. Very handy stuff here pertaining to indie web dev; if suprisingly laggy even on my desktop.
+I stumbled across <a href="https://midnightsolarium.neocities.org/links">this
+neocities site</a> while googling neocities vs nekocities. Very handy stuff here
+pertaining to indie web dev; if suprisingly laggy even on my desktop.
 
-One of the things I discovered through the above is the <a href="https://marginalia-search.com/">marginalia search engine</a>
-which I would normally ignore as just one of the crowd, but I decided to test it by searching for the old 4x
-game Stars! (yes, including exclamation) and it popped up immediately in the search dropdown as "stars! autohost"!! I may not use this a lot, but for obscure or older topic I might
-bring it to bear.
-
+One of the things I discovered through the above is the
+[marginalia search engine](https://marginalia-search.com/) which I would
+normally ignore as just one of the crowd, but I decided to test it by searching
+for the old 4x game Stars! (yes, including exclamation) and it popped up
+immediately in the search dropdown as "stars! autohost"!! I may not use this a
+lot, but for obscure or older topic I might bring it to bear.
 
 ## Update
-This website is now built on sveltekit. That should make it very easy to maintain
-fancier pieces. 
 
-I'm currently writing this in sveltekit with typescript and sass, deployed via [github](https://github.com/Temoffy/temoffyTelosWeb) workflow.
- I think this will work great, but there's only one way to find out (Telos from a month later here, it's great).
+This website is now built on sveltekit. That should make it very easy to
+maintain fancier pieces.
 
-As of May 2026, I'm now also using several other pieces including mdsvex and custom build systems. I'll need to write it up soon.
+I'm currently writing this in sveltekit with typescript and sass, deployed via
+[github](https://github.com/Temoffy/temoffyTelosWeb) workflow. I think this will
+work great, but there's only one way to find out (Telos from a month later here,
+it's great).
+
+As of May 2026, I'm now also using several other pieces including mdsvex and
+custom build systems. I'll need to write it up soon.
 
 Todo: See about basic telemetry about lightmode and darkmode so I know where to
-focus development. Add dark/light mode toggle? Comments/guestbook at some point. I found 
-a [guide](https://writings.howsoonisnow.org/digitalgarden/Tutorials/Make-a-Poll-for-your-site-using-Google-Forms--and--Sheets) on using hidden google forms for such, and intend to try it.
+focus development. Add dark/light mode toggle? Comments/guestbook at some point.
+I found a
+[guide](https://writings.howsoonisnow.org/digitalgarden/Tutorials/Make-a-Poll-for-your-site-using-Google-Forms--and--Sheets)
+on using hidden google forms for such, and intend to try it.

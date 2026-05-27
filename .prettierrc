@@ -6,12 +6,20 @@
 	"plugins": ["prettier-plugin-svelte"],
 	"overrides": [
 		{
-			"files": "*.svelte",
+			"files": ["*.svelte"],
 			"options": {
 				"parser": "svelte",
 				"defaultScriptLanguage": "ts",
 				"singleQuote": true,
 				"svelteSortOrder": "options-scripts-styles-markup"
+			}
+		},
+		{
+			"files": ["*.svx"],
+			"options": {
+				"parser": "markdown",
+				"printWidth": 80,
+				"proseWrap": "always"
 			}
 		}
 	]

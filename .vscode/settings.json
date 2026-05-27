@@ -1,11 +1,29 @@
 {
 	"files.associations": {
-		"*.css": "tailwindcss"
+		"*.css": "tailwindcss",
+		"*.svx": "markdown"
 	},
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
 	"editor.detectIndentation": false,
 	"editor.tabSize": 2,
-	"editor.insertSpaces": false
+	"editor.insertSpaces": false,
+	"prettier.resolveConfig": true,
+	"prettier.useEditorConfig": false,
+	"[svx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+		"editor.wordWrap": "off"
+	},
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.wordWrap": "off",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+	}
 }

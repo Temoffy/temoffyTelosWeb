@@ -1,0 +1,40 @@
+---
+layout: autochapter
+bookTitle: Collectanea
+chapterTitle: Foreword
+chapterNum: iv
+prevURL: /frontmatter/contents
+nextURL: /early-rambles
+---
+
+## Foreword
+
+The impetus behind this site is a curious amalgam of reasons that I have a hard
+time fully untangling. Some reasons years in the making. So please forgive me
+some meandering while I try to sort out the biggest few.
+
+During my many years of projects I've been greatly aided in obscure problems by
+hundreds of people ranging from stack overflow commenters, bloggers, forum
+posters, discord members, my dad, and in one case a professor in Italy that
+kindly responded to my confused email. I'd like to follow in those footsteps for
+the generations after me. Perhaps this site will help someone.
+
+Many times I've talked to people about my work and then been unable to access my
+files or at a loss as to where I stashed them. It's common advice to build a
+portfolio for such occasions, and moreso for use in professional or paid
+environs; where I've been a time or two. Perhaps this site will be handy for
+collating and showing my projects.
+
+Many sites are ever increasingly locked behind account, payment, or invitation
+walls. Or designed to occupy you for longer than reason and natural desire
+warrants. Or ambiguously permanent. I find it troubling that my personal access
+to my personal curated and constructed materials be contingent on unceasing
+adherence to large and fluctuating Terms of Services. If rulers were to
+confiscate your notebooks for being deemed a rude and unhappy person we'd all
+rightly recoil in horror. Perhaps this site will help easily retain and rehost
+my work should the worst come to pass.
+
+For these reasons, and for artistic and technical advancement, I make this
+personal site. I hope that what I've shaped here is of some profit to you, that
+I do not waste your time on what is neither helpful nor beautiful. But I am not
+the judge of that and it's high time I get this out of your way.

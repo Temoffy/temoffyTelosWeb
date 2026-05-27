@@ -35,7 +35,10 @@
 			<a href="/frontmatter/contents">Contents</a><span class="pageNum">iii</span>
 		</li>
 		<li>
-			<a href="/early-rambles">Early Rambles</a><span class="pageNum">iv</span>
+			<a href="/foreword">Foreword</a><span class="pageNum">iv</span>
+		</li>
+		<li>
+			<a href="/early-rambles">Early Rambles</a><span class="pageNum">v</span>
 		</li>
 	</ol>
 {/snippet}
@@ -47,6 +50,6 @@
 	showChapterTitle={false}
 	chapterNum=""
 	prevURL="/frontmatter/epigraph"
-	nextURL="/early-rambles"
+	nextURL="/foreword"
 	pages={[empty, contents]}
 />
