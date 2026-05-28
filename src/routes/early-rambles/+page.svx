@@ -55,3 +55,9 @@ focus development. Add dark/light mode toggle? Comments/guestbook at some point.
 I found a
 [guide](https://writings.howsoonisnow.org/digitalgarden/Tutorials/Make-a-Poll-for-your-site-using-Google-Forms--and--Sheets)
 on using hidden google forms for such, and intend to try it.
+
+## Temporary Pause
+
+It's currently the 28th of May, and Screeps has announced their special 10th
+anniversery season is starting the third of June. I will be putting this website
+on hold for the next couple weeks to work on my bot, see ya!
