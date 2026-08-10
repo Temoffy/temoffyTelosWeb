@@ -61,3 +61,9 @@ on using hidden google forms for such, and intend to try it.
 It's currently the 28th of May, and Screeps has announced their special 10th
 anniversery season is starting the third of June. I will be putting this website
 on hold for the next couple weeks to work on my bot, see ya!
+
+## Todo and Update:
+
+Season over but dealing with some other stuff ATM, expect to be back soon. Todo:
+rough out a ToC and throw together pages. Better to have bad than none.
+'specially for projects and porfolio.
