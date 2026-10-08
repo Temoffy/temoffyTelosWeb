@@ -1,0 +1,10 @@
+---
+chapterTitle: Minecraft
+chapterNum: v
+prevURL: /early-rambles
+nextURL: /screeps
+---
+
+## auto fragment chapter test
+
+test

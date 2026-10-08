@@ -70,10 +70,11 @@
 
 <PerPage
 	bookTitle=""
-	chapterTitle="Dedication and Publishing"
+	chapterTitle="Dedication"
 	showChapterTitle={false}
-	chapterNum=""
+	showChapterNum={false}
+	chapterNum="i"
 	prevURL="/"
-	nextURL="/frontmatter/epigraph"
+	nextURL="/frontmatter/contents"
 	pages={[publishing, dedication]}
 />

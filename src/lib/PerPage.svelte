@@ -1,8 +1,16 @@
 <script lang="ts">
 	import PageSpread from '$lib/PageSpread.svelte';
 
-	let { pages, bookTitle, chapterTitle, showChapterTitle, prevURL, nextURL, chapterNum } =
-		$props();
+	let {
+		pages,
+		bookTitle,
+		chapterTitle,
+		showChapterTitle = true,
+		showChapterNum = true,
+		prevURL,
+		nextURL,
+		chapterNum
+	} = $props();
 
 	let pageNum = $state(0);
 	let secondPageWidth = $state(1);
@@ -19,7 +27,7 @@
 		return pageNum < pages.length - (secondPageWidth == 0 ? 1 : 2);
 	}
 	function getPageNum(pageNum: number) {
-		return chapterNum ? `${chapterNum}-${pageNum}` : '';
+		return chapterNum && showChapterNum ? `${chapterNum}-${pageNum}` : '';
 	}
 </script>
 
@@ -66,8 +74,8 @@
 		<div class="page">
 			{@render pages[pageNum]()}
 		</div>
-		<div class="page mobileHide"  bind:clientWidth={secondPageWidth}>
-			{#if pageNum<pages.length-1}
+		<div class="page mobileHide" bind:clientWidth={secondPageWidth}>
+			{#if pageNum < pages.length - 1}
 				{@render pages[pageNum + 1]()}
 			{/if}
 		</div>

@@ -8,48 +8,80 @@
 		padding: 0;
 	}
 	li {
+		text-transform: uppercase;
 		margin: 0.5em 0;
 	}
-	.pageNum {
+	.chapterNum {
 		float: right;
 		text-transform: none;
 	}
 	h2 {
 		text-align: center;
 	}
+
+	.center {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.epigraph {
+		text-indent: 0;
+		margin: 0px;
+		hyphens: auto;
+		text-align: center;
+	}
+	.epigraphSignature {
+		text-align: right;
+		font-size: medium;
+		margin: 0.5em 0 0 0;
+		font-family: 'IM Fell English SC', 'IM Fell English', serif;
+	}
 	* {
-		text-transform: uppercase;
+		white-space: normal;
 	}
 </style>
 
+{#snippet epigraph()}
+	<div class="center">
+		<p class="epigraph">
+			<i>
+				He had a number of pictures on hand; most of them were too large and ambitious for
+				his skill. He was the sort of painter who can paint leaves better than trees. He
+				used to spend a long time on a single leaf, trying to catch its shape, and its
+				sheen, and the glistening of dewdrops on its edges. Yet he wanted to paint a whole
+				tree, with all of its leaves in the same style, and all of them different.
+			</i>
+		</p>
+		<p class="epigraphSignature">"Leaf by Niggle" JRR Tolkien</p>
+	</div>
+{/snippet}
+
 {#snippet contents()}
 	<h2>Contents</h2>
+	<!-- excluded: '/test', '/' -->
 	<ol>
 		<li>
-			<a href="/frontmatter/dedication">Dedication</a><span class="pageNum">i</span>
+			<a href="/frontmatter/dedication">Dedication</a><span class="chapterNum">i</span>
 		</li>
 		<li>
-			<a href="/frontmatter/epigraph">Epigraph</a><span class="pageNum">ii</span>
+			<a href="/frontmatter/contents">Contents</a><span class="chapterNum">ii</span>
 		</li>
-		<li>
-			<a href="/frontmatter/contents">Contents</a><span class="pageNum">iii</span>
-		</li>
-		<li>
-			<a href="/foreword">Foreword</a><span class="pageNum">iv</span>
-		</li>
-		<li>
-			<a href="/early-rambles">Early Rambles</a><span class="pageNum">v</span>
-		</li>
+		<li><a href="/foreword">Foreword</a><span class="chapterNum">iii</span></li>
+		<li><a href="/early-rambles">Early Rambles</a><span class="chapterNum">iv</span></li>
+		<li><a href="/minecraft">Minecraft</a><span class="chapterNum">v</span></li>
+		<li><a href="/screeps">Screeps</a><span class="chapterNum">vi</span></li>
 	</ol>
 {/snippet}
-{#snippet empty()}{/snippet}
 
 <PerPage
 	bookTitle=""
 	chapterTitle="Contents"
 	showChapterTitle={false}
-	chapterNum=""
-	prevURL="/frontmatter/epigraph"
+	chapterNum="ii"
+	showChapterNum={false}
+	prevURL="/frontmatter/dedication"
 	nextURL="/foreword"
-	pages={[empty, contents]}
+	pages={[epigraph, contents]}
 />

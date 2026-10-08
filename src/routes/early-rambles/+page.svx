@@ -2,9 +2,9 @@
 layout: autochapter
 bookTitle: Collectanea
 chapterTitle: Early Rambles
-chapterNum: v
+chapterNum: iv
 prevURL: /foreword
-nextURL: /
+nextURL: /minecraft
 ---
 
 ## Early Rambles
@@ -67,3 +67,6 @@ on hold for the next couple weeks to work on my bot, see ya!
 Season over but dealing with some other stuff ATM, expect to be back soon. Todo:
 rough out a ToC and throw together pages. Better to have bad than none.
 'specially for projects and porfolio.
+
+It's been a few weeks since the above, and I realize that I've been avoiding
+this project because the sorting and catagorization is intimidating.

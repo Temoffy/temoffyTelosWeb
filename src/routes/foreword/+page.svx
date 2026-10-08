@@ -2,15 +2,16 @@
 layout: autochapter
 bookTitle: Collectanea
 chapterTitle: Foreword
-chapterNum: iv
+chapterNum: iii
 prevURL: /frontmatter/contents
 nextURL: /early-rambles
 ---
 
 ## Foreword
 
-There is no one reason I am making this site, some reasons years in the making.
-So please forgive me some meandering while I try to sort out the biggest few.
+There is no single reason I am making this site, and some reasons are years in
+the making. So please forgive me some meandering while I try to sort out the
+biggest few.
 
 During my years of projects I've been rescued countless times by hundreds of
 people ranging from stack overflow commenters, bloggers, forum posters, discord
@@ -21,7 +22,7 @@ after me. Perhaps this site will help someone.
 Many times I've talked to people about my work and then been unable to access my
 files or unsure where I stashed them. It's common advice to build a portfolio
 for such occasions, and moreso for use in professional or paid environs; where
-I've been a time or two. Perhaps this site will be handy for showing my
+I've been a time or two. Perhaps this site will be handy for showcasing my
 projects.
 
 Many sites are ever more locked behind account, payment, or invitation walls. Or
