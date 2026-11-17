@@ -9,7 +9,7 @@ nextURL: /early-rambles
 
 ## Foreword
 
-There is no single reason I am making this site, and some reasons are years in
+There is no isolated reason I am making this site, and some reasons are years in
 the making. So please forgive me some meandering while I try to sort out the
 biggest few.
 
@@ -26,7 +26,7 @@ I've been a time or two. Perhaps this site will be handy for showcasing my
 projects.
 
 Many sites are ever more locked behind account, payment, or invitation walls. Or
-designed to occupy you for longer than reason and natural desire warrants. Or of
+designed to occupy you for longer than reason and natural desire warrant. Or of
 ambiguous lifespan. I find it troubling that my personal access to my personally
 curated and constructed materials be contingent on unceasing adherence to a
 large and fluctuating Terms of Service. If rulers were to confiscate your

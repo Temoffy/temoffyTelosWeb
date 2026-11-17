@@ -31,7 +31,7 @@ const config = {
 			remarkPlugins: [remarkNoBreak],
 			layout: {
 				autochapter: path_to_autoChapter,
-				autofragmentchapter: path_to_autoFragmentChapter
+				autofragchapter: path_to_autoFragmentChapter
 				//_: "./path/to/fallback/layout.svelte"
 			}
 		}),

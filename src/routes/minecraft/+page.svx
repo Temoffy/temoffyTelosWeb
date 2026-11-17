@@ -1,10 +1,13 @@
 ---
+layout: autofragchapter
 chapterTitle: Minecraft
 chapterNum: v
 prevURL: /early-rambles
 nextURL: /screeps
 ---
 
-## auto fragment chapter test
+## Minecraft
 
-test
+I probably have more hours in minecraft than any other game, ranging from modded
+1.7 to my own vanilla client pack in 26.1. Here I've collected some projects and
+thoughts.

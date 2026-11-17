@@ -1,0 +1,18 @@
+## Screeps
+
+Screeps is an RTS MMO game for programmers that I've returned to a couple times
+over the years. It has a remarkably low barrier to entry paired with the most
+depth I've seen in coding games, and at the time of writing I've completely
+remade my bot code at least 4 times as I improve both in the game and in coding
+in general.
+
+My bot is [public](https://github.com/Temoffy/screeps-typescript-starter) for
+ease of access, which I'm not worried about because there are much better bots
+to fork if someone's lazy and if someone finds an exploit in my code, that helps
+me improve. I'm currently building a task system based roughly around the method
+explained by
+
+If you're considering getting into it, I recommend starting with
+[The Farmer Was Replaced](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
+as a shorter, more guided, and more beginner friendly game before going to
+screeps.

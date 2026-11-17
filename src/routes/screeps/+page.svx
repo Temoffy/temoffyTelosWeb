@@ -1,3 +1,11 @@
+---
+layout: autofragchapter
+chapterTitle: Screeps
+chapterNum: vi
+prevURL: /minecraft
+nextURL:
+---
+
 ## Main Title
 
 test screeps
