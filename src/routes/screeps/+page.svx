@@ -1,5 +1,5 @@
 ---
-layout: autofragchapter
+layout: autochapter
 chapterTitle: Screeps
 chapterNum: vi
 prevURL: /minecraft

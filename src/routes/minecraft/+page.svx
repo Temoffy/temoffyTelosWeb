@@ -1,5 +1,5 @@
 ---
-layout: autofragchapter
+layout: autochapter
 chapterTitle: Minecraft
 chapterNum: v
 prevURL: /early-rambles
