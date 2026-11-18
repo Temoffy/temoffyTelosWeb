@@ -1,5 +1,6 @@
 ---
 layout: autochapter
+bookTitle: Collectanea
 chapterTitle: Screeps
 chapterNum: vi
 prevURL: /minecraft
