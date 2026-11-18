@@ -6,8 +6,107 @@ prevURL: /early-rambles
 nextURL: /screeps
 ---
 
+<style>
+	img {
+		max-width: 60%;
+		height: auto;
+		padding: 5% 20%
+	}
+</style>
+
 ## Minecraft
 
 I probably have more hours in minecraft than any other game, ranging from modded
 1.7 to my own vanilla client pack in 26.1. Here I've collected some projects and
 thoughts.
+
+## Ice Cream Sundae
+
+Ice Cream Sundae is a fabric-based client pack I've put together and
+occasionally update.
+
+I haven't really used an unmodified client since... before 2020. In that time
+I've grown rather attached to a selection of mods even when playing on vanilla
+servers and made a habit of building a custom modlist whenever I boot up a new
+version of minecraft. Then I figured that since I was putting together all this
+stuff anyway, I may as well make it public. Even if only one person gets good
+use from it, that's more return for work I was already doing. (fool that I was,
+not knowing how much work that added)
+
+So I put together [Ice Cream Sundae](https://modrinth.com/project/9jIRcx30) and
+[Ice Cream Mondae](https://modrinth.com/project/Dl1zzMv5) (a version sans the
+more graphics intensive features). Built around a core of mods like
+[Accurate Block Placement](https://modrinth.com/project/kzwxhsjp),
+[Mouse Tweaks](https://modrinth.com/project/aC3cM3Vq), client sorting,
+clickthrough, and so on. Why there isn't already a pack combining these mods, I
+will never know.
+
+If you know another modpack in the niche, please tell me so I can swap to it and
+stop bothering with this project. As much as I've enjoyed parts of putting it
+together, it can be a bother at times. (I'm particularly happy with the pack
+icon art, it's my first landscape pixel art and I think it turned out nice).
+
+<enhanced:img src="./IceCreamSundaeIcon.png" alt="mountain sunrise"/>
+
+ps. I've been made aware of some packs that do have that combination, but also
+unfortunately feature a significant portion of mods that cross the QoL-hack
+boundary; and/or are ill maintained and updated. (not that I have room on that
+last point)
+
+To this point I've been using the Complementary or Makeup Ultrafast shaders on
+low settings for graphics as I only really care about basic dynamic lighting,
+shadows, sunbeams, and distant fog. But I've heard rumor of mods that can meet
+their performance with even more biome-specific atmosphere and features. Will be
+looking into that shortly.
+
+I'm also considering trying to implement improved nighttime lighting per the
+methods used by [Wishbone Games](https://youtu.be/u9X7SHarZQg) as it both makes
+nighttime scary and hard to navigate without resorting to an unusable black
+screen.
+
+## Matcha-Flavored
+
+Complaining about Minecraft and Mojang is one of the most widespread and
+time-honored traditions of Minecraft players, and I'm no exception. Neither is
+Klei_wright, but he actually went and did something about it, and produced an
+amazing minecraft rework, the
+[Matcha-Flavored](https://modrinth.com/project/QI0EmgZ1) datapack.
+
+It really does feel like he rewound the clock back to the earliest versions of
+minecraft and then played it forward through a very different timeline, ending
+up with something that simultaniously feels more Minecraft than most 'vanilla
+plus' packs and entirely foreign; with changes ranging from removing the whole
+hunger and xp systems, to making small flowers duplicatable through crafting.
+
+I do have my issues with it, make no mistake, but if I ever get around to making
+my own minecraft rework it'll likely be built on Matcha, not vanilla Minecraft.
+
+Replacing hunger directly with eating to heal and merging potion effects into
+the regular food system was a great move, and I actually enjoyed going through
+and making as wide a selection of foods as I could. Which is not something I've
+ever done in mods like farmer's delight. Normally I find what I consider to be
+the best saturation per effort food in jei and only ever make and eat that, but
+in Matcha I found myself maintaining a selection of foods for their potion
+effects or to use up farm produce even after unlocking all the recipes and
+deciding on a bulk food source.
+
+I similarly approve of the progression and material changes, like dropping stone
+tools altogether in favor of integrating copper properly and doubling iron
+crafting products if you use steel. But I hear there's been some more
+significant changes since I last played, so I'll hold off on farther comments
+there.
+
+Replacing redstone with copper was a similarly inspired move, freeing up an ore
+for other purposes, making it easier to get redstone components, and giving
+copper more uses in one fell swoop.
+
+I didn't reach the endgame gear, but in principle I agree that having craftable
+enchants is greatly preferable to villager halls or random rolls. I'm not a fan
+of bringing in real world religious pluralism as flavortext; it throws me out of
+the game. I see the mythological references and connections in things like
+elytra and Icarus, or campfires and Prometheus, but then I find a Quran or
+Tanakh in a chest and it's used for a random enchanted book?
+
+But it's worth it, and that's without detailing all the tiny changes like
+disabling creeper spawning on the surface overworld, the beautiful new plant
+textures, making leather armor reasonable, and so much more.

@@ -10,10 +10,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const path_to_autoChapter = join(__dirname, './src/lib/layouts/AutoChapter.svelte');
-const path_to_autoFragmentChapter = join(
-	__dirname,
-	'./src/lib/layouts/AutoFragmentChapter.svelte'
-);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -30,8 +26,7 @@ const config = {
 			extensions: ['.md', '.svx'],
 			remarkPlugins: [remarkNoBreak],
 			layout: {
-				autochapter: path_to_autoChapter,
-				autofragchapter: path_to_autoFragmentChapter
+				autochapter: path_to_autoChapter
 				//_: "./path/to/fallback/layout.svelte"
 			}
 		}),
